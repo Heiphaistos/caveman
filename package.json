@@ -1,7 +1,7 @@
 {
   "name": "caveman-installer",
   "version": "2.0.0",
-  "description": "Caveman installer \u2014 detects your AI coding agents and installs caveman for each one.",
+  "description": "Caveman installer — detects your AI coding agents and installs caveman for each one.",
   "license": "MIT",
   "author": "Julius Brussee",
   "homepage": "https://github.com/JuliusBrussee/caveman",
@@ -35,5 +35,16 @@
     "!**/__pycache__/**",
     "!**/*.py[cod]"
   ],
-  "packageManager": "pnpm@10.14.0"
+  "packageManager": "pnpm@10.14.0",
+  "pnpm": {
+    "overrides": {
+      "fast-uri@<3.1.7": "^3.1.7",
+      "js-yaml@>=3.0.0 <3.15.2": "^3.15.2",
+      "hono@<4.13.7": "^4.13.7",
+      "ip-address@>=10.0.0 <10.5.1": "^10.5.1",
+      "qs@<6.16.0": "^6.16.0",
+      "undici@>=8.0.0 <8.10.2": "^8.10.2",
+      "undici@>=7.28.0 <7.29.1": "^7.29.1"
+    }
+  }
 }
