@@ -1,6 +1,6 @@
 module github.com/JuliusBrussee/caveman
 
-go 1.26.5
+go 1.27.3
 
 require (
 	github.com/Microsoft/go-winio v0.6.2
@@ -12,9 +12,9 @@ require (
 	github.com/minio/minio-go/v7 v7.2.0
 	github.com/smacker/go-tree-sitter v0.0.0-20240827094217-dd81d9e9be82
 	github.com/tiktoken-go/tokenizer v0.8.0
-	golang.org/x/crypto v0.53.0
-	golang.org/x/net v0.55.0
-	golang.org/x/sys v0.46.0
+	golang.org/x/crypto v0.58.0
+	golang.org/x/net v0.62.0
+	golang.org/x/sys v0.49.0
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.53.0
 )
@@ -44,8 +44,8 @@ require (
 	github.com/tinylib/msgp v1.6.1 // indirect
 	github.com/zeebo/xxh3 v1.1.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/text v0.39.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	gopkg.in/ini.v1 v1.67.2 // indirect
 	modernc.org/libc v1.73.4 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
