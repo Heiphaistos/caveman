@@ -29,3 +29,12 @@ skills/*/dist/
 extension/engine.wasm
 *.tsbuildinfo
 bin/cave
+.env*
+*.pem
+*.key
+*.log
+.logs/
+build/
+target/
+.vscode/
+.idea/
